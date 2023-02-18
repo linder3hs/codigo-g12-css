@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.primary-color {
+  background-color: #101b40;
+}
+
+.secondary-color {
+  background-color: #313e67;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.primary-font {
+  font-family: monospace, sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.text-dark {
+  color: #ccc;
+}
+
+main {
+  height: 100vh;
+}
+
+.container {
+  width: 600px;
+}
+
+.border-none {
+  border: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.mood {
+  text-transform: uppercase;
+  gap: 15px;
+}
+
+.search {
+  border-radius: 12px;
+  gap: 20px;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.search input {
+  font-size: 18px;
+}
+
+.rounded-8 {
+  border-radius: 8px;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search button {
+  background-color: #2250e9;
+  font-size: 16px;
+}
+
+.result {
+  padding: 30px;
+  border-radius: 12px;
+  gap: 30px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.username {
+  color: #05133f;
+  margin-top: 5px;
+}
+
+.date {
+  font-size: 13px;
+}
+
+.stats {
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.social {
+  font-size: 14px;
+  gap: 30px;
+}
+
+.social div {
+  width: 50%;
+}
